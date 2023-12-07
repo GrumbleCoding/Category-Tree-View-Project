@@ -76,17 +76,24 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # Category-Tree-View-Project
 
 Step:-1
-After download you have to move this project inside your local path **C\Xampp\htdocs\Projectname**.
+After download extract the project and move the project inside your local path **C\Xampp\htdocs\Projectname**.
 
 Step:-2
-Then you have to create database name manually **testpractical**.
-
-Step:-3
-Run migration command to setup table name category **php artisan migrate**.
-
-Step:-4
 Start the xampp server.
 
+Step:-3
+Then you have to create database name manually **testpractical**.
+
+Step:-4
+Now run project through command prompt and execute the command **composer update** and then after **php artisan key:genereate**.
+
 Step:-5
+Then open the project in editor and rename the file **.env.exapmle** to **.env** and assign the database name **testpractical**
+
+
+Step:-6
+Run migration command to setup table name category **php artisan migrate**.
+
+Step:-7
 Serve the project with **php artisan serve** command.
 
